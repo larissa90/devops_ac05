@@ -1,19 +1,10 @@
 language: python
-
 python:
-
 - 3.6
-
 before_install:
-
 - python --version
-
 - pip install -U pip
-
 - pip install -U pytest
-
 - pip install -U pytest-cov
-
 script:
-
-- pytest --cov=com.erick com/erick/test/
+- pytest --cov=com.larissa com/larissa/test/
